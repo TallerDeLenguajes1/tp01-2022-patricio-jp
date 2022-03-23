@@ -8,13 +8,14 @@ Es conveniente incluirlo para no darle seguimiento a archivos ya compilados, dep
 El momento ideal para crear el archivo .gitignore es al iniciar el proyecto, aunque puede ser creado y modificado a lo largo del tiempo que dure el proyecto.
 
 Para configurar el archivo se debe escribir una regla por fila, colocando el nombre del fichero que debe ser excluido y/o patrones de ficheros para ser excluidos.
+
     ```
     # Para ignorar todos los archivos .exe del proyecto
     *.exe
-
+    
     # Un archivo en particular
     ignorado.txt
-
+    
     # También es posible ignorar dentro de carpetas
     carpeta/ignorado.txt
     ```
